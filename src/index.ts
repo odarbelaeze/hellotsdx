@@ -1,4 +1,4 @@
-const ISI_PATTERN = /(\S|null)?((?<key>[0-9A-Z]{2})|  )( (?<value>.+))?/
+const ISI_PATTERN = /^(.|null)?((?<key>[0-9A-Z]{2})|  )( (?<value>.+))?$/
 
 const hellotsdx = (content: string): boolean => {
   for (let line of content.split('\n')) {
