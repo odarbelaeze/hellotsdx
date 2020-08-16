@@ -1,4 +1,24 @@
-# TSDX Bootstrap
+# HELLO TSDX
+
+This projects just aims to showcase the usage of tsdx as a workflow. You can still
+grab this module by:
+
+```
+npm i hellotsdx
+```
+
+```js
+import hellotsdx from 'hellotsdx';
+
+hellotsdx(`
+AU Someone J
+CR Reference 1
+   Reference 2
+TI Some title
+ER
+EF
+`) // -> true
+```
 
 This project was bootstrapped with [TSDX](https://github.com/jaredpalmer/tsdx).
 
